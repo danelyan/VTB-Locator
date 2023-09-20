@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+    <path id="a" d="M934 501h90c3 0 4 2 2 5l-5 10c-2 3-5 5-8 5h-90c-3 0-4-2-2-5l5-10c2-3 5-5 8-5Z"/>
+    <use x="-13.5" y="29" href="#a"/>
+    <use x="-27" y="58" href="#a"/>
+</svg>

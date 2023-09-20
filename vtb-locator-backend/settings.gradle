@@ -1,0 +1,5 @@
+rootProject.name = 'vdnh-backend'
+include ":vdnh-backend-core"
+include ":vdnh-backend-database"
+include ":vdnh-backend-app"
+

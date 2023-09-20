@@ -1,0 +1,22 @@
+dependencies {
+    api project(":vdnh-backend-core")
+
+    api deps.exposed.core
+    api deps.exposed.dao
+    api deps.exposed.jdbc
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
